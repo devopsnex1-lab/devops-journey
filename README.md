@@ -1,14 +1,48 @@
-# DevOps Journey 🚀
+# 🚀 DevOps Journey
 
-## Day 1 – Linux Basics
+This repository documents my DevOps learning journey — from basic Linux commands to working with Git and version control.
 
-- Created a folder and files
-- Used ls, cd, mkdir, touch
-- Changed chmod permissions
-- Made my first git commit
+---
 
-## Screenshots
+## 📅 Day 1 — Linux & Git Basics
 
-![Linux Commands](screenshots/linux1.png)
-![Linux Commands](screenshots/linux2.png)
-![Linux Commands](screenshots/linux3.png)
+### 🐧 Linux File Operations & Permissions
+
+In this step, I practiced basic Linux commands:
+
+- create directories (mkdir)
+- navigate between folders (cd, pwd)
+- create files (touch)
+- view files (ls -l, cat)
+- manage permissions (chmod)
+
+📸 Example:
+
+![Linux](screenshots/day1_linux_files_permissions.png)
+
+---
+
+### 🌿 Git Remote & First Push
+
+Connected local repository to GitHub and made the first push:
+
+- set remote repository (git remote add/set-url)
+- push code to GitHub (git push)
+
+📸 Example:
+
+![Git Remote](screenshots/day1_git_remote_and_push.png)
+
+---
+
+### 📦 Git Commit & Push Workflow
+
+Practiced basic Git workflow:
+
+- add changes (git add)
+- commit changes (git commit)
+- push changes (git push)
+
+📸 Example:
+
+![Git Commit](screenshots/day1_git_commit_push.png)
