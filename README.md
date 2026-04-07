@@ -1,12 +1,12 @@
-# 🚀 DevOps Journey
+# DevOps Journey
 
 This repository documents my DevOps learning journey — from basic Linux commands to working with Git and version control.
 
 ---
 
-## 📅 Day 1 — Linux & Git Basics
+## Day 1 — Linux & Git Basics
 
-### 🐧 Linux File Operations & Permissions
+### Linux File Operations & Permissions
 
 In this step, I practiced basic Linux commands:
 
@@ -22,7 +22,7 @@ In this step, I practiced basic Linux commands:
 
 ---
 
-### 🌿 Git Remote & First Push
+### Git Remote & First Push
 
 Connected local repository to GitHub and made the first push:
 
@@ -35,7 +35,7 @@ Connected local repository to GitHub and made the first push:
 
 ---
 
-### 📦 Git Commit & Push Workflow
+### Git Commit & Push Workflow
 
 Practiced basic Git workflow:
 
@@ -46,3 +46,36 @@ Practiced basic Git workflow:
 📸 Example:
 
 ![Git Commit](screenshots/day1_git_commit_push.png)
+
+# Day 2 — System Monitoring & Bash
+
+System Monitoring & Processes
+
+In this step, I learned how to monitor and analyze system processes in Linux:
+
+- view all running processes (ps aux)
+- monitor system in real time (top)
+- check CPU and memory usage
+- use htop for better visualization
+
+📸 Example:
+
+![PS](screenshots/day2-ps.png)
+![Top](screenshots/day2-top.png)
+![Htop](screenshots/day2-htop.png)
+
+---
+
+Bash Script Basics
+
+In this step, I created my first Bash script to display system information:
+
+- current user (whoami)
+- working directory (pwd)
+- system info (uname -a)
+- disk usage (df -h)
+- memory usage (free -h)
+
+📸 Example:
+
+![Script](screenshots/day2-script.png)
