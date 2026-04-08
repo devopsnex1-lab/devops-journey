@@ -79,3 +79,36 @@ In this step, I created my first Bash script to display system information:
 📸 Example:
 
 ![Script](screenshots/day2-script.png)
+
+## Day 3 — Logs & System Analysis
+
+System Logs & Monitoring
+
+In this step, I learned how to analyze system logs and detect errors:
+
+- used journalctl to view system logs
+- filtered logs by priority (errors)
+- viewed recent logs using journalctl -n
+- monitored logs in real time using tail
+
+📸 Example:
+
+![Journal](screenshots/day3-journal.png)
+![Syslog](screenshots/day3-syslog.png)
+![Errors](screenshots/day3-errors.png)
+
+---
+
+Bash Automation
+
+In this step, I created a script to check system status:
+
+- system uptime
+- disk usage
+- memory usage
+- top CPU processes
+- recent errors
+
+📸 Example:
+
+![Script](screenshots/day3-script.png)
