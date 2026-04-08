@@ -93,7 +93,7 @@ In this step, I learned how to analyze system logs and detect errors:
 
 📸 Example:
 
-![Journal](screenshots/day3-journal.png)
+![Logs](screenshots/day3-logs.png)
 ![Syslog](screenshots/day3-syslog.png)
 ![Errors](screenshots/day3-errors.png)
 
