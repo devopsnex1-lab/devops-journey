@@ -167,16 +167,87 @@ Created a bash script to automate network diagnostics:
 
 ---
 
-## About Me
+# Day 5 — Network Diagnostics & Connectivity
 
-Beginner DevOps engineer.
-Currently learning Linux, networking, and automation step by step.
+## Network Testing & Troubleshooting
+
+In this step, I practiced diagnosing network connectivity and analyzing how systems communicate over the internet.
+
+### What I learned:
+
+- check HTTP/HTTPS connection using curl
+- analyze DNS resolution using dig
+- test open ports using nc (netcat)
+- trace network route using traceroute
+- test connectivity using ping
 
 ---
 
-## Next Steps
+## Tools Used
 
-- Docker
-- CI/CD basics
-- GitHub Actions
-- Cloud (AWS basics)
+- curl
+- dig
+- netcat (nc)
+- traceroute
+- bash
+
+---
+
+## Commands Used
+
+### 1. CURL — Check HTTP/HTTPS
+
+- verify SSL connection
+- check HTTP response status
+
+📸 Example:
+
+![CURL](screenshots/day5-curl.png)
+
+---
+
+### 2. DIG — DNS Lookup
+
+- resolve domain to IP addresses
+- analyze DNS response
+
+📸 Example:
+
+![DIG](screenshots/day5-dig.png)
+
+---
+
+### 3. Netcat — Port Check
+
+- check if ports are open (80, 443)
+
+📸 Example:
+
+![NC 80](screenshots/day5-nc-80.png)  
+![NC 443](screenshots/day5-nc-443.png)
+
+---
+
+### 4. Traceroute — Network Path
+
+- track route packets take to destination
+- analyze hops
+
+📸 Example:
+
+![Traceroute](screenshots/day5-traceroute.png)
+
+---
+
+### 5. Bash Script — Network Diagnostics
+
+Created a script to automate checks:
+
+- ping test
+- DNS resolution
+- HTTP/HTTPS connection
+- port availability
+
+📸 Example:
+
+![Script](screenshots/day5-script.png)
