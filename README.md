@@ -223,8 +223,8 @@ In this step, I practiced diagnosing network connectivity and analyzing how syst
 
 📸 Example:
 
-![NC 80](screenshots/day5-nc-80.png)  
-![NC 443](screenshots/day5-nc-443.png)
+![NC 80](screenshots/day5-port80.png)
+![NC 443](screenshots/day5-port443.png)
 
 ---
 
