@@ -251,3 +251,116 @@ Created a script to automate checks:
 📸 Example:
 
 ![Script](screenshots/day5-script.png)
+
+## Day 6 — Docker Basics 🐳
+
+### Docker Version
+
+Checked Docker installation:
+
+- docker --version
+
+📸 Example:
+
+![Docker Version](screenshots/day6-docker-version.png)
+
+---
+
+### Test Container
+
+Ran test container:
+
+- docker run hello-world
+
+📸 Example:
+
+![Hello World](screenshots/day6-hello.png)
+
+---
+
+### Run Nginx Container
+
+Started Nginx container:
+
+- docker run -d -p 8080:80 nginx
+
+📸 Example:
+
+![Nginx Run](screenshots/day6-nginx-run.png)
+
+---
+
+### Open in Browser
+
+Accessed container in browser:
+
+http://localhost:8080
+
+📸 Example:
+
+![Browser](screenshots/day6-nginx-browser.png)
+
+---
+
+### Running Containers
+
+Checked running containers:
+
+- docker ps
+
+📸 Example:
+
+![Docker PS](screenshots/day6-ps.png)
+
+---
+
+### Stop Container
+
+Stopped container:
+
+- docker stop <container_id>
+
+📸 Example:
+
+![Stop](screenshots/day6-stop.png)
+
+---
+
+### All Containers
+
+Checked all containers:
+
+- docker ps -a
+
+📸 Example:
+
+![Docker PS All](screenshots/day6-psa.png)
+
+---
+
+### Bash Script
+
+Created script for automation:
+
+- ./docker-check.sh
+
+Script includes:
+- container status
+- running containers
+- basic checks
+
+📸 Example:
+
+![Script](screenshots/day6-script.png)
+
+---
+
+## 🧠 What I learned
+
+- How Docker works
+- How to run containers
+- How to manage containers (start/stop/list)
+- How to expose ports
+- Basic Docker workflow
+
+
