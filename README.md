@@ -391,7 +391,7 @@ Checked running containers and verified services:
 
 📸 Example:
 
-![Docker PS](screenshots/day7-docker-ps.png)
+![Docker PS](screenshots/day7-compose-ps.png)
 
 ---
 
@@ -404,7 +404,7 @@ Monitored container output to understand behavior:
 
 📸 Example:
 
-![Logs](screenshots/day7-docker-logs.png)
+![Logs](screenshots/day7-compose-logs.png)
 
 ---
 
@@ -417,7 +417,7 @@ Tested the web server via browser:
 
 📸 Example:
 
-![Browser Working](screenshots/day7-browser-working.png)
+![Browser Working](screenshots/day7-browser.png)
 
 ---
 
@@ -430,7 +430,7 @@ Encountered and analyzed a connection problem:
 
 📸 Example:
 
-![Browser Error](screenshots/day7-browser-error.png)
+![Browser Error](screenshots/day7-broken-port.png)
 
 ---
 
@@ -443,7 +443,7 @@ Accessed running container to verify files:
 
 📸 Example:
 
-![Docker Exec](screenshots/day7-docker-exec.png)
+![Docker Exec](screenshots/day7-exec.png)
 
 ---
 
@@ -457,4 +457,4 @@ Stopped and removed containers:
 
 📸 Example:
 
-![Compose Down](screenshots/day7-compose-down.png)
+![Compose Down](screenshots/day7-down.png)
