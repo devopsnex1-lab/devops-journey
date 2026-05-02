@@ -458,3 +458,71 @@ Stopped and removed containers:
 📸 Example:
 
 ![Compose Down](screenshots/day7-down.png)
+
+## Day 8 — Container Log Analysis & Monitoring
+
+### Docker Logs Basic
+
+- viewed container logs with docker logs
+- filtered errors with grep -i error
+
+📸 ![Docker Logs](screenshots/day8-logs.png)
+📸 ![Error Filter](screenshots/day8-grep-error.png)
+
+---
+
+### Generating & Detecting 404 Errors
+
+- simulated error with curl /not-exist
+- viewed recent logs with --tail 15
+
+📸 ![404 Error](screenshots/day8-404.png)
+
+---
+
+### Docker Compose with Logging Configuration
+
+- configured log rotation (max-size, max-file)
+- ran multi-container setup
+
+📸 ![Compose PS](screenshots/day8-compose-ps.png)
+📸 ![Compose Logs](screenshots/day8-compose-logs.png)
+
+---
+
+### Bash Script — Container Log Analyzer
+
+Created container-log-check.sh that:
+- checks if container is running
+- displays last 10 log lines
+- counts errors
+
+📸 ![Script Content](screenshots/day8-script-content.png)
+📸 ![Script Running](screenshots/day8-script-run.png)
+📸 ![Script Error Handling](screenshots/day8-script-error.png)
+
+---
+
+### Multi-Container Health Check
+
+Created check-all.sh to monitor all running containers
+
+📸 ![Check All](screenshots/day8-check-all.png)
+
+---
+
+### Cleanup
+
+Removed all containers after testing
+
+📸 ![Cleanup](screenshots/day8-cleanup.png)
+
+---
+
+## Skills Learned
+
+- Docker log analysis
+- Error detection with grep
+- Log rotation configuration
+- Bash scripting for container monitoring
+- Multi-container log aggregation
